@@ -1,0 +1,60 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  padding: 6em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+}
+
+section h1 {
+  font-size: 5em;
+}
+
+section p {
+  width: 50%;
+  opacity: 0.8;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+section:nth-of-type(1) {
+  background: #1da767;
+}
+
+section:nth-of-type(2) {
+  background: #257bb4;
+}
+
+section:nth-of-type(3) {
+  background: #6f26b3;
+}
+
+section:nth-of-type(4) {
+  background: #8ead27;
+}
+
+[data-scroll] {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+[data-scroll='in'] {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+[data-scroll='out'] {
+  opacity: 0;
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+}
+/*# sourceMappingURL=main.css.map */
