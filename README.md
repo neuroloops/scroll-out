@@ -11,7 +11,7 @@ require `data-scroll` atribute to activate on element.
 Effect on 2nd `<h1>` element and 3rd `<section>`
 
 
-Css attribute need for transition
+Css attribute needed for transition
 
 ```css
 [data-scroll] {
